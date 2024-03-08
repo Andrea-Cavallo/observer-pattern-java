@@ -19,10 +19,3 @@ The `PollingPublisher` class serves as the subject in this implementation. It fo
 - **Generating Notifications**: Periodically generates messages using a background thread (scheduler).
 - **Notifying Observers**: Iterates through its observers and calls their `handleMessage` method to deliver the generated messages.
 
-## How to Use the PollingPublisher
-
-### Get an Instance:
-
-```java
-PollingPublisher publisher = PollingPublisher.getInstance(); // Singleton pattern
-```
